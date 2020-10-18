@@ -1,0 +1,9 @@
+string=input()
+substring=input()
+s=string.strip()
+sb=substring.strip()
+b=s.find(sb)
+print(b)
+c=s[b:3]
+k=s.remove(c)
+print(k)
